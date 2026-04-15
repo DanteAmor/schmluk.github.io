@@ -1,4 +1,13 @@
 const pubTalks = [
+    {
+    "title": "Embodied Spatio-Temporal AI for Long-term Robot Autonomy",
+    "venue": " CSCE 635 AI Robotics",
+    "location": "Texas A&M University, College Station, TX, USA",
+    "month": 2,
+    "year": 2026,
+    "type": "Guest Lecture",
+    "virtual": true
+  },
   {
     "title": "From Lab to Liftoff: Accelerating Intelligent Systems",
     "venue": "ETH Alumni Boston Spotlight",

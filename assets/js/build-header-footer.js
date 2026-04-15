@@ -6,8 +6,7 @@ function buildHeader(id) {
       <h1>
         <ul class="no-bullets" style="padding-bottom: 2em;">
           <li><strong>Lukas Schmid</strong></li>
-          <li>Research Scientist</li>
-          <li>@<a href="https://web.mit.edu/sparklab/">MIT SPARK Lab</a></li>
+          <li>Professor @ <a href="https://www.utn.de/en/departments/department-computer-science-artificial-intelligence/machine-intelligence/">UTN</a></li>
         </ul>
       </h1>
     </div>`;
@@ -30,7 +29,7 @@ function buildFooter(id) {
               class="label">ORCID</span></a></li>
         <li><a href="https://www.researchgate.net/profile/Lukas-Schmid-14"
             class="icon brands fa-researchgate"><span class="label">Research Gate</span></a></li>
-        <li><a href="mailto:lschmid@mit.edu" class="icon solid fa-envelope"><span
+        <li><a href="mailto:lukas.schmid@utn.de" class="icon solid fa-envelope"><span
               class="label">Email</span></a></li>
       </ul>
       <ul class="copyright">

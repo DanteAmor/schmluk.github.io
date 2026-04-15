@@ -1,10 +1,31 @@
 const conferenceVenues = {
   "RSS": "Robotics: Science and Systems (RSS)",
   "ICRA": "IEEE International Conference on Robotics and Automation (ICRA)",
-  "3DV": "IEEE International Conference on 3D Vision (3DV)"
+  "3DV": "IEEE International Conference on 3D Vision (3DV)",
+  "CVPR": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
 }
 
 const pubConferences = [
+   {
+    "authors": ["N. Gorlo", "L. Schmid", "L. Carlone"],
+    "title": "Describe Anything Anywhere At Any Moment",
+    "venue": conferenceVenues["CVPR"],
+    "thumbimage": "daaam.jpg",
+    "thumblink": "https://nicolasgorlo.com/DAAAM_25",
+    "year": "2026",
+    "pages": "Denver, CO, USA, June",
+    "links": [{ "name": "ArXiv", "link": "https://arxiv.org/abs/2512.00565" }, { "name": "Project", "link": "https://nicolasgorlo.com/DAAAM_25" }, { "name": "Code", "link": "https://github.com/MIT-SPARK/DAAAM" }]
+  },
+  {
+    "authors": ["V. Yugay", "K. Thies", "L. Carlone", "T. Gevers", "M. R. Oswald", "L. Schmid"],
+    "title": "Gaussian Mapping for Evolving Scenes",
+    "venue": conferenceVenues["CVPR"],
+    "thumbimage": "game.jpg",
+    "thumblink": "https://vladimiryugay.github.io/game/",
+    "year": "2026",
+    "pages": "Denver, CO, USA, June",
+    "links": [{ "name": "ArXiv", "link": "https://arxiv.org/abs/2506.06909" }, { "name": "Project", "link": "https://vladimiryugay.github.io/game/" }, { "name": "Code", "link": "https://github.com/VladimirYugay/GaME" }]
+  },
   {
     "authors": ["L. Schmid", "M. Abate", "Y. Chang", "L. Carlone"],
     "title": "Khronos: A Unified Approach for Spatio-Temporal Metric-Semantic SLAM in Dynamic Environments",
